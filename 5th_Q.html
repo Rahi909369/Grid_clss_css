@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th_Qustion</title>
+
+    <style>
+        body {
+            border: 3px solid black;
+        }
+
+        .nav {
+            display: grid;
+
+        }
+
+        a {
+            text-decoration: none;
+            padding: 18px;
+            color: #000000;
+        }
+
+        .logo {
+            display: inline-flex;
+            justify-content: start;
+
+        }
+
+        .login {
+            position: absolute;
+            top: -15px;
+            right: 2%;
+            padding: 5px 35px;
+            border-radius: 8px;
+            border: 0px;
+            background-color: #61db96;
+            color: #000000;
+        }
+
+        button {}
+
+        .nav_item {
+            position: absolute;
+            top: 15px;
+            left: 40%;
+
+        }
+
+
+        .contenar {
+            display: grid;
+            height: 92vh;
+            width: 100%;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        button {
+            background-color: black;
+            color: aliceblue;
+            padding: 4px 15px;
+            margin-top: 30px;
+        }
+
+        .contenar1 {
+            padding: 25% 30px;
+        }
+
+        .contenar2 {
+            background-color: yellow;
+            height: auto;
+            width: 98%;
+            margin: 1%;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            width: 99%;
+
+        }
+
+        .swiggy {
+            background-color: #38292d;
+            height: 350px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h3 {
+            color: #f0f8ff;
+        }
+
+        p {
+            color: #95754b;
+        }
+
+        .order {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding-left: 8%;
+            width: 92%;
+            justify-content: space-between;
+            margin: 20px 0px;
+            overflow: hidden;
+
+        }
+
+        .online {
+            border: 2px solid black;
+            width: 340px;
+            border-radius: 20px;
+        }
+
+        .imge {
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        .h2 {
+            padding: 0px 40px;
+            margin: 0px;
+        }
+
+        .p {
+            padding: 10px 10px 10px 40px;
+            margin: 0px;
+        }
+
+        .footer2 {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #38292d;
+        }
+
+        .copy {
+            text-align: center;
+            background-color: #38292d;
+            color: aliceblue;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        .con>a {
+            text-decoration: none;
+            color: #95754b;
+            padding: 0px;
+            
+        }
+
+        .con>h1 {
+            color: aliceblue;
+        }
+
+        .con>img {
+            padding: 10%;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            <img src="./healthy-food-logo.jpg" alt="Healthy Food Logo" height="40px" width="40px">
+        </div>
+        <div class="nav_item">
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+
+        </div>
+        <div>
+            <a href="#"><button class="login">Login</button></a>
+        </div>
+    </div>
+    <div class="contenar">
+        <div class="contenar1">
+            <h3>Healthy Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores at id perspiciatis eos aspernatur,
+                itaque
+                eveniet in quod excepturi! Incidunt nihil esse sit expedita et assumenda accusamus eaque aliquam porro
+                fugiat? Tempora praesentium itaque sed soluta repellendus maxime autem eius.</p>
+            <a href="#"><button>Read More</button></a>
+
+        </div>
+        <div class="contenar2">
+            <img src="./Food_Image.jpg" alt="Healthy Food" height="100%" width="70%">
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="swiggy swi1">
+            <img src="./s_1.webp" alt="" height="250px" width="110px">
+            <h3>No Minimum Order</h3>
+            <p>Order in for yourself or for the group, <br> with no restrictions on order value </p>
+        </div>
+        <div class="swiggy swi2">
+            <img src="./s2.webp" alt="" height="250px" width="110px">
+            <h3>Live Order Tracking</h3>
+            <p>Know where your order is at all times, <br> from the restaurant to your doorstep</p>
+        </div>
+        <div class="swiggy swi3">
+            <img src="./s_3.webp" alt="" height="250px" width="110px">
+            <h3>Lightning-Fast Delivery</h3>
+            <p>Experience Swiggy's superfast delivery <br> for food delivered fresh & on time </p>
+        </div>
+
+    </div>
+    <div class="order">
+        <div class="online">
+            <img class="imge" src="./one_1.jpg" alt="" height="200px" width="340px">
+            <h2 class="h2">Order Online</h2>
+            <p class="p">Stay Home and order to your Door Step</p>
+        </div>
+        <div class="online">
+            <img class="imge" src="./one_2.jpg" alt="" height="200px" width="340px">
+            <h2 class="h2">On-site Dinig</h2>
+            <p class="p">View the city's favourite dinig venues
+        </div>
+        <div class="online">
+            <img class="imge" src="./one_3.jpg" alt="" height="200px" width="340px">
+            <h2 class="h2">Nightlife & Clubs</h2>
+            <p class="p">Explore the city's nightlife outlets & Book tables</p>
+        </div>
+    </div>
+
+    <div class="footer2">
+
+        <div class="con">
+            <img src="./healthy-food-logo.jpg" alt="">
+        </div>
+
+        <div class="con">
+            <h1>Navigation Link</h1>
+            <a href="#">
+                <p>Home</p>
+            </a><a href="#">
+                <p>About</p>
+            </a><a href="#">
+                <p>Contact</p>
+            </a><a href="#">
+                <p>Login</p>
+            </a>
+        </div>
+
+        <div class="con">
+            <h1>Learn More</h1>
+            <a href="#">
+                <p>Privacy</p>
+            </a><a href="#">
+                <p>Security</p>
+            </a><a href="#">
+                <p>Terms</p>
+            </a><a href="#">
+                <p>Sitemap</p>
+            </a>
+        </div>
+
+    </div>
+    <p class="copy"> &#169; Copyright All rights Reserved</p>
+
+</body>
+
+</html>
